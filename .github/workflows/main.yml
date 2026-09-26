@@ -1,0 +1,22 @@
+# NEJ-RS
+
+# 1. Name
+name: AI18 Hello World GitHub Actions
+
+# 2. Event
+on:
+  push:
+    branches: [main]
+# 3. Jobs
+jobs:
+  demo: # 4. Runner (Computer/Machine)
+    runs-on: ubuntu-latest
+
+    # 5. Steps
+    steps:
+      - name: Greetings
+        run: echo "Hello World From GitHub Actions"
+        
+  
+    
+    
